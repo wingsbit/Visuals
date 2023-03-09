@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: mainfont;
+}
+
+
+.container {
+	width: 100%;
+	margin: auto;
+    background-color: blue;
+    padding: 40px 0;
+}
+
+.logo {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+ul {
+	list-style: none;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 700px;
+    
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+button {
+    width: 160px;
+    height: 55px;
+    margin-top: -25px;
+    background-color: white;
+    font-weight: bold;
+    
+
+}
+
+
+
+section {
+    margin-top: 200px;   
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.service {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 1220px;
+
+}
+
+.bullets {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50px;
+    
+
+
+
+}
+
+.slider-bullets {
+
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+.dedakubiki {
+    display: flex;
+	gap: 20px;
+    justify-content: center;
+    margin-top: 25px;
+    
+    
+
+    
+}
+
+.main {
+    width: 30%;
+
+}
+
+
+.shvili {
+
+    background-color: gray;
+	padding: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+p {
+padding-top: 2%;
+
+}
